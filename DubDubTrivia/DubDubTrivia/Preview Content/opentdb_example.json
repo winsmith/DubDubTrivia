@@ -1,26 +1,25 @@
 {
   "response_code": 0,
   "results": [
-      
-      {
-        "category": "Entertainment%3A%20Comics",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which%20one%20of%20these%20superhero%20teams%20appears%20in%20the%20Invincible%20comics%3F",
-        "correct_answer": "Guardians%20of%20the%20Globe",
-        "incorrect_answers": [
-          "Avengers",
-          "Justice%20League",
-          "Teenage%20Mutant%20Ninja%20Turtles"
-        ]
-      },
     {
-        "category": "Science%20%26%20Nature",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "What%20is%20the%20molecular%20formula%20of%20the%20active%20component%20of%20chili%20peppers%28Capsaicin%29%3F",
-        "correct_answer": "C18H27NO3",
-        "incorrect_answers": ["C21H23NO3", "C6H4Cl2", "C13H25NO4"]
+      "category": "Entertainment%3A%20Comics",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20one%20of%20these%20superhero%20teams%20appears%20in%20the%20Invincible%20comics%3F",
+      "correct_answer": "Guardians%20of%20the%20Globe",
+      "incorrect_answers": [
+        "Avengers",
+        "Justice%20League",
+        "Teenage%20Mutant%20Ninja%20Turtles"
+      ]
+    },
+    {
+      "category": "Science%20%26%20Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20molecular%20formula%20of%20the%20active%20component%20of%20chili%20peppers%28Capsaicin%29%3F",
+      "correct_answer": "C18H27NO3",
+      "incorrect_answers": ["C21H23NO3", "C6H4Cl2", "C13H25NO4"]
     },
     {
       "category": "Sports",
@@ -29,14 +28,6 @@
       "question": "Manchester%20United%20won%20the%202013-14%20English%20Premier%20League.",
       "correct_answer": "False",
       "incorrect_answers": ["True"]
-    },
-    {
-      "category": "Entertainment%3A%20Comics",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "The%20%22Pepe%22%20meme%20originated%20from%20a%20comic%20drawn%20by%20Matt%20Furie%20called%20%22Boy%27s%20Club%22%3F",
-      "correct_answer": "True",
-      "incorrect_answers": ["False"]
     },
     {
       "category": "Entertainment%3A%20Video%20Games",
@@ -57,14 +48,6 @@
       "question": "In%20Heroes%20of%20the%20Storm%2C%20the%20Cursed%20Hollow%20map%20gimmick%20requires%20players%20to%20kill%20the%20undead%20to%20curse%20the%20enemy%20team.",
       "correct_answer": "False",
       "incorrect_answers": ["True"]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "The%20main%20objective%20of%20the%20German%20operation%20%22Case%20Blue%22%20during%20World%20War%20II%20was%20originally%20to%20capture%20what%3F",
-      "correct_answer": "Caucasus",
-      "incorrect_answers": ["Stalingrad", "Crimea", "Voronezh"]
     },
     {
       "category": "Entertainment%3A%20Books",
@@ -93,6 +76,102 @@
         "Different%20Backstory",
         "Different%20Appearance"
       ]
+    },
+    {
+      "category": "Entertainment%3A%20Film",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20animated%20movie%20was%20first%20to%20feature%20a%20celebrity%20as%20a%20voice%20actor%3F",
+      "correct_answer": "Aladdin",
+      "incorrect_answers": [
+        "Toy%20Story",
+        "James%20and%20the%20Giant%20Peach",
+        "The%20Hunchback%20of%20Notre%20Dame"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20is%20the%20final%20game%20of%20the%20%22Zero%20Escape%22%20series%20called%3F",
+      "correct_answer": "Zero%20Escape%20Zero%20Time%20Dilemma%20",
+      "incorrect_answers": [
+        "Nine%20Hours%2C%20Nine%20Persons%2C%20Nine%20Doors%20",
+        "Zero%20Escape%20Virtue%27s%20Last%20Reward",
+        "The%20Nonary%20Game%3A%20Sigma%27s%20Last%20Life"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What%20UK%20Train%20does%20NOT%20go%20over%20125MPH%3F",
+      "correct_answer": "Sprinter",
+      "incorrect_answers": ["Class%2043", "Javelin", "Pendolino"]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20of%20the%20following%20is%20NOT%20a%20god%20in%20Norse%20Mythology.",
+      "correct_answer": "Jens",
+      "incorrect_answers": ["Loki", "Tyr", "Snotra"]
+    },
+    {
+      "category": "Vehicles",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "The%20General%20Motors%20EV1%20was%20the%20first%20street-legal%20production%20electric%20vehicle.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20of%20these%20country%27s%20capitals%20starts%20with%20the%20letter%20B%3F",
+      "correct_answer": "Lebanon",
+      "incorrect_answers": ["Jordan", "Kuwait", "Qatar"]
+    },
+    {
+      "category": "Entertainment%3A%20Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which%20of%20these%20songs%20is%20NOT%20in%20The%20Beatles%27%20album%20%22Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band%22%3F",
+      "correct_answer": "Strawberry%20Fields%20Forever",
+      "incorrect_answers": [
+        "Getting%20Better",
+        "Fixing%20a%20Hole",
+        "Lucy%20in%20the%20Sky%20with%20Diamonds"
+      ]
+    },
+    {
+      "category": "Science%20%26%20Nature",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which%20of%20the%20following%20is%20considered%20classical%20conditioning%3F",
+      "correct_answer": "Pavlov%27s%20dog%20experiments",
+      "incorrect_answers": [
+        "Skinner%20box%20experiment",
+        "Schr%C3%B6dinger%27s%20cat%20experiment",
+        "Harlow%E2%80%99s%20monkey%20experiments"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20the%20movie%20%22Back%20to%20the%20Future%2C%22%20what%20speed%20does%20Doc%20Brown%27s%20DeLorean%20need%20to%20reach%20in%20order%20to%20travel%20through%20time%3F",
+      "correct_answer": "88%20mph",
+      "incorrect_answers": ["77%20mph", "100%20mph", "70%20mph"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which%20of%20these%20covert%20groups%20employs%20Sam%20Fisher%20to%20work%20as%20a%20Splinter%20Cell%3F",
+      "correct_answer": "Third%20Echelon",
+      "incorrect_answers": ["Voron", "Black%20Arrow", "The%20Engineers"]
     }
   ]
 }

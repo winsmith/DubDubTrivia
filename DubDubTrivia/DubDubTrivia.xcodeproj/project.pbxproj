@@ -21,6 +21,10 @@
 		2B96A054284E0C690073F46D /* OpenTDBModelsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A053284E0C690073F46D /* OpenTDBModelsTest.swift */; };
 		2B96A05E284E16B20073F46D /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A05D284E16B20073F46D /* QuestionView.swift */; };
 		2B96A05F284E16B20073F46D /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A05D284E16B20073F46D /* QuestionView.swift */; };
+		2B96A061284E1C1D0073F46D /* TriviaSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A060284E1C1D0073F46D /* TriviaSessionManager.swift */; };
+		2B96A062284E1C1D0073F46D /* TriviaSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A060284E1C1D0073F46D /* TriviaSessionManager.swift */; };
+		2B96A064284E1D610073F46D /* TriviaSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A063284E1D610073F46D /* TriviaSessionView.swift */; };
+		2B96A065284E1D610073F46D /* TriviaSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A063284E1D610073F46D /* TriviaSessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,8 @@
 		2B96A04F284E0BFB0073F46D /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		2B96A053284E0C690073F46D /* OpenTDBModelsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTDBModelsTest.swift; sourceTree = "<group>"; };
 		2B96A05D284E16B20073F46D /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		2B96A060284E1C1D0073F46D /* TriviaSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaSessionManager.swift; sourceTree = "<group>"; };
+		2B96A063284E1D610073F46D /* TriviaSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaSessionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +94,11 @@
 		2B96A01A284E0A030073F46D /* DubDubTrivia */ = {
 			isa = PBXGroup;
 			children = (
-				2B96A01B284E0A030073F46D /* DubDubTriviaApp.swift */,
-				2B96A01D284E0A030073F46D /* ContentView.swift */,
+				2B96A068284E1E5D0073F46D /* App */,
+				2B96A066284E1E460073F46D /* Views */,
+				2B96A067284E1E4D0073F46D /* Managers */,
 				2B96A01F284E0A030073F46D /* Assets.xcassets */,
 				2B96A021284E0A040073F46D /* Preview Content */,
-				2B96A05D284E16B20073F46D /* QuestionView.swift */,
 			);
 			path = DubDubTrivia;
 			sourceTree = "<group>";
@@ -130,6 +136,32 @@
 				2B96A04F284E0BFB0073F46D /* APIResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2B96A066284E1E460073F46D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B96A01D284E0A030073F46D /* ContentView.swift */,
+				2B96A05D284E16B20073F46D /* QuestionView.swift */,
+				2B96A063284E1D610073F46D /* TriviaSessionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B96A067284E1E4D0073F46D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2B96A060284E1C1D0073F46D /* TriviaSessionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2B96A068284E1E5D0073F46D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B96A01B284E0A030073F46D /* DubDubTriviaApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +268,8 @@
 			files = (
 				2B96A04C284E0B1A0073F46D /* Question.swift in Sources */,
 				2B96A050284E0BFB0073F46D /* APIResponse.swift in Sources */,
+				2B96A064284E1D610073F46D /* TriviaSessionView.swift in Sources */,
+				2B96A061284E1C1D0073F46D /* TriviaSessionManager.swift in Sources */,
 				2B96A05E284E16B20073F46D /* QuestionView.swift in Sources */,
 				2B96A01E284E0A030073F46D /* ContentView.swift in Sources */,
 				2B96A01C284E0A030073F46D /* DubDubTriviaApp.swift in Sources */,
@@ -248,6 +282,8 @@
 			files = (
 				2B96A02D284E0A040073F46D /* DubDubTriviaTests.swift in Sources */,
 				2B96A04D284E0B1A0073F46D /* Question.swift in Sources */,
+				2B96A065284E1D610073F46D /* TriviaSessionView.swift in Sources */,
+				2B96A062284E1C1D0073F46D /* TriviaSessionManager.swift in Sources */,
 				2B96A05F284E16B20073F46D /* QuestionView.swift in Sources */,
 				2B96A054284E0C690073F46D /* OpenTDBModelsTest.swift in Sources */,
 				2B96A051284E0BFB0073F46D /* APIResponse.swift in Sources */,
