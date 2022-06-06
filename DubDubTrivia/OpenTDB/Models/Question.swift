@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 public struct Question: Codable {
     public enum QuestionType: String, Codable {
@@ -47,8 +48,24 @@ public struct Question: Codable {
         }
     }
 
+    public var allAnswers: [Answer] {
+        var allAnswers: [Answer] = incorrectAnswers.map {
+            Answer(text: $0, isCorrect: false)
+        }
+
+        allAnswers.append(Answer(text: correctAnswer, isCorrect: true))
+
+        return allAnswers
+    }
+
     private let url_encoded_category: String
     private let url_encoded_question: String
     private let url_encoded_correct_answer: String
     private let url_encoded_incorrect_answers: [String]
+}
+
+public struct Answer: Identifiable {
+    public var id: String { text }
+    public let text: String
+    public let isCorrect: Bool
 }
