@@ -1,0 +1,98 @@
+{
+  "response_code": 0,
+  "results": [
+      
+      {
+        "category": "Entertainment%3A%20Comics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which%20one%20of%20these%20superhero%20teams%20appears%20in%20the%20Invincible%20comics%3F",
+        "correct_answer": "Guardians%20of%20the%20Globe",
+        "incorrect_answers": [
+          "Avengers",
+          "Justice%20League",
+          "Teenage%20Mutant%20Ninja%20Turtles"
+        ]
+      },
+    {
+        "category": "Science%20%26%20Nature",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What%20is%20the%20molecular%20formula%20of%20the%20active%20component%20of%20chili%20peppers%28Capsaicin%29%3F",
+        "correct_answer": "C18H27NO3",
+        "incorrect_answers": ["C21H23NO3", "C6H4Cl2", "C13H25NO4"]
+    },
+    {
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Manchester%20United%20won%20the%202013-14%20English%20Premier%20League.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Entertainment%3A%20Comics",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The%20%22Pepe%22%20meme%20originated%20from%20a%20comic%20drawn%20by%20Matt%20Furie%20called%20%22Boy%27s%20Club%22%3F",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What%20was%20the%20%231%20selling%20game%20on%20Steam%20by%20revenue%20in%202016%3F",
+      "correct_answer": "Sid%20Meier%27s%20Civilization%20VI",
+      "incorrect_answers": [
+        "Grand%20Theft%20Auto%20V",
+        "Counter%20Strike%3A%20Global%20Offensive",
+        "Dark%20Souls%20III"
+      ]
+    },
+    {
+      "category": "Entertainment%3A%20Video%20Games",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "In%20Heroes%20of%20the%20Storm%2C%20the%20Cursed%20Hollow%20map%20gimmick%20requires%20players%20to%20kill%20the%20undead%20to%20curse%20the%20enemy%20team.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The%20main%20objective%20of%20the%20German%20operation%20%22Case%20Blue%22%20during%20World%20War%20II%20was%20originally%20to%20capture%20what%3F",
+      "correct_answer": "Caucasus",
+      "incorrect_answers": ["Stalingrad", "Crimea", "Voronezh"]
+    },
+    {
+      "category": "Entertainment%3A%20Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In%20%22Little%20Women%22%2C%20which%20of%20the%20March%20sisters%20married%20Laurie%3F",
+      "correct_answer": "Amy",
+      "incorrect_answers": ["Beth", "Jo", "Meg"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Toussaint%20Louverture%20led%20a%20successful%20slave%20revolt%20in%20which%20country%3F",
+      "correct_answer": "Haiti",
+      "incorrect_answers": ["France", "Cuba", "United%20States"]
+    },
+    {
+      "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How%20does%20the%20character%20Dragowizard%2C%20Qinus%20Axia%27s%20from%20the%20anime%20%22Buddyfight%22%20differ%20between%20the%20Japanese%20and%20English%20dubs%3F",
+      "correct_answer": "Different%20Gender",
+      "incorrect_answers": [
+        "Different%20Body%20Proportions",
+        "Different%20Backstory",
+        "Different%20Appearance"
+      ]
+    }
+  ]
+}

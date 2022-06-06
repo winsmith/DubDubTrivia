@@ -12,8 +12,16 @@
 		2B96A020284E0A030073F46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B96A01F284E0A030073F46D /* Assets.xcassets */; };
 		2B96A023284E0A040073F46D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B96A022284E0A040073F46D /* Preview Assets.xcassets */; };
 		2B96A02D284E0A040073F46D /* DubDubTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A02C284E0A040073F46D /* DubDubTriviaTests.swift */; };
-		2B96A037284E0A040073F46D /* DubDubTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A036284E0A040073F46D /* DubDubTriviaUITests.swift */; };
-		2B96A039284E0A040073F46D /* DubDubTriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A038284E0A040073F46D /* DubDubTriviaUITestsLaunchTests.swift */; };
+		2B96A046284E0A8F0073F46D /* opentdb_example.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B96A045284E0A8F0073F46D /* opentdb_example.json */; };
+		2B96A047284E0A8F0073F46D /* opentdb_example.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B96A045284E0A8F0073F46D /* opentdb_example.json */; };
+		2B96A048284E0A8F0073F46D /* opentdb_example.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B96A045284E0A8F0073F46D /* opentdb_example.json */; };
+		2B96A04C284E0B1A0073F46D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A04B284E0B1A0073F46D /* Question.swift */; };
+		2B96A04D284E0B1A0073F46D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A04B284E0B1A0073F46D /* Question.swift */; };
+		2B96A04E284E0B1A0073F46D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A04B284E0B1A0073F46D /* Question.swift */; };
+		2B96A050284E0BFB0073F46D /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A04F284E0BFB0073F46D /* APIResponse.swift */; };
+		2B96A051284E0BFB0073F46D /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A04F284E0BFB0073F46D /* APIResponse.swift */; };
+		2B96A052284E0BFB0073F46D /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A04F284E0BFB0073F46D /* APIResponse.swift */; };
+		2B96A054284E0C690073F46D /* OpenTDBModelsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A053284E0C690073F46D /* OpenTDBModelsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +50,10 @@
 		2B96A028284E0A040073F46D /* DubDubTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubDubTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B96A02C284E0A040073F46D /* DubDubTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubTriviaTests.swift; sourceTree = "<group>"; };
 		2B96A032284E0A040073F46D /* DubDubTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubDubTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B96A036284E0A040073F46D /* DubDubTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubTriviaUITests.swift; sourceTree = "<group>"; };
-		2B96A038284E0A040073F46D /* DubDubTriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubTriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B96A045284E0A8F0073F46D /* opentdb_example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = opentdb_example.json; sourceTree = "<group>"; };
+		2B96A04B284E0B1A0073F46D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2B96A04F284E0BFB0073F46D /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		2B96A053284E0C690073F46D /* OpenTDBModelsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTDBModelsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +84,9 @@
 		2B96A00F284E0A030073F46D = {
 			isa = PBXGroup;
 			children = (
+				2B96A049284E0AFE0073F46D /* OpenTDB */,
 				2B96A01A284E0A030073F46D /* DubDubTrivia */,
 				2B96A02B284E0A040073F46D /* DubDubTriviaTests */,
-				2B96A035284E0A040073F46D /* DubDubTriviaUITests */,
 				2B96A019284E0A030073F46D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2B96A022284E0A040073F46D /* Preview Assets.xcassets */,
+				2B96A045284E0A8F0073F46D /* opentdb_example.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -114,17 +125,26 @@
 			isa = PBXGroup;
 			children = (
 				2B96A02C284E0A040073F46D /* DubDubTriviaTests.swift */,
+				2B96A053284E0C690073F46D /* OpenTDBModelsTest.swift */,
 			);
 			path = DubDubTriviaTests;
 			sourceTree = "<group>";
 		};
-		2B96A035284E0A040073F46D /* DubDubTriviaUITests */ = {
+		2B96A049284E0AFE0073F46D /* OpenTDB */ = {
 			isa = PBXGroup;
 			children = (
-				2B96A036284E0A040073F46D /* DubDubTriviaUITests.swift */,
-				2B96A038284E0A040073F46D /* DubDubTriviaUITestsLaunchTests.swift */,
+				2B96A04A284E0B0A0073F46D /* Models */,
 			);
-			path = DubDubTriviaUITests;
+			path = OpenTDB;
+			sourceTree = "<group>";
+		};
+		2B96A04A284E0B0A0073F46D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B96A04B284E0B1A0073F46D /* Question.swift */,
+				2B96A04F284E0BFB0073F46D /* APIResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B96A046284E0A8F0073F46D /* opentdb_example.json in Resources */,
 				2B96A023284E0A040073F46D /* Preview Assets.xcassets in Resources */,
 				2B96A020284E0A030073F46D /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B96A047284E0A8F0073F46D /* opentdb_example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B96A048284E0A8F0073F46D /* opentdb_example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B96A04C284E0B1A0073F46D /* Question.swift in Sources */,
+				2B96A050284E0BFB0073F46D /* APIResponse.swift in Sources */,
 				2B96A01E284E0A030073F46D /* ContentView.swift in Sources */,
 				2B96A01C284E0A030073F46D /* DubDubTriviaApp.swift in Sources */,
 			);
@@ -267,6 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B96A02D284E0A040073F46D /* DubDubTriviaTests.swift in Sources */,
+				2B96A04D284E0B1A0073F46D /* Question.swift in Sources */,
+				2B96A054284E0C690073F46D /* OpenTDBModelsTest.swift in Sources */,
+				2B96A051284E0BFB0073F46D /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B96A037284E0A040073F46D /* DubDubTriviaUITests.swift in Sources */,
-				2B96A039284E0A040073F46D /* DubDubTriviaUITestsLaunchTests.swift in Sources */,
+				2B96A04E284E0B1A0073F46D /* Question.swift in Sources */,
+				2B96A052284E0BFB0073F46D /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
