@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct TriviaSessionView: View {
-    @ObservedObject var sessionManager: TriviaSessionManager
+    @StateObject var sessionManager: TriviaSessionManager
     
     var body: some View {
-        if let currentQuestion = sessionManager.questionQueue.first {
+        Text("Score: \(sessionManager.score)")
+        
+        if let currentQuestion = sessionManager.currentQuestion {
             QuestionView(question: currentQuestion, answerAction: answerAction)
+                .id(currentQuestion.question)
         }
     }
     

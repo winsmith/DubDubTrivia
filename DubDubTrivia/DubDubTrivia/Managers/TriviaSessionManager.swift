@@ -14,8 +14,12 @@ public class TriviaSessionManager: ObservableObject {
         .hard: 30
     ]
 
-    @Published var score = 0
-    @Published var questionQueue: [Question] = []
+    @Published public var score = 0
+    @Published public var questionQueue: [Question] = []
+    
+    public var currentQuestion: Question? {
+        return questionQueue.first
+    }
 
     public func submit(answer: Answer, for question: Question) {
         if answer.isCorrect {
