@@ -20,7 +20,8 @@ struct TriviaSessionView: View {
     }
 
     private func answerAction(_ question: Question, _ answer: Answer) {
-        sessionManager.submit(answer: answer, for: question)
+        let isCorrect = sessionManager.submit(answer: answer, for: question)
+        print("Correct: \(isCorrect)")
     }
 }
 

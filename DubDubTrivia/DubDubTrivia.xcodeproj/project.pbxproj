@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7DB30B284F7FC200582266 /* URL+Open.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DB30A284F7FC200582266 /* URL+Open.swift */; };
 		2B96A01C284E0A030073F46D /* DubDubTriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A01B284E0A030073F46D /* DubDubTriviaApp.swift */; };
 		2B96A01E284E0A030073F46D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B96A01D284E0A030073F46D /* ContentView.swift */; };
 		2B96A020284E0A030073F46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B96A01F284E0A030073F46D /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B7DB30A284F7FC200582266 /* URL+Open.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Open.swift"; sourceTree = "<group>"; };
 		2B96A018284E0A030073F46D /* DubDubTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B96A01B284E0A030073F46D /* DubDubTriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubTriviaApp.swift; sourceTree = "<group>"; };
 		2B96A01D284E0A030073F46D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B7DB309284F7FB300582266 /* Helpers and Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B7DB30A284F7FC200582266 /* URL+Open.swift */,
+			);
+			path = "Helpers and Extensions";
+			sourceTree = "<group>";
+		};
 		2B96A00F284E0A030073F46D = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		2B96A01A284E0A030073F46D /* DubDubTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				2B7DB309284F7FB300582266 /* Helpers and Extensions */,
 				2B96A068284E1E5D0073F46D /* App */,
 				2B96A066284E1E460073F46D /* Views */,
 				2B96A067284E1E4D0073F46D /* Managers */,
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B96A04C284E0B1A0073F46D /* Question.swift in Sources */,
+				2B7DB30B284F7FC200582266 /* URL+Open.swift in Sources */,
 				2B96A050284E0BFB0073F46D /* APIResponse.swift in Sources */,
 				2B96A064284E1D610073F46D /* TriviaSessionView.swift in Sources */,
 				2B96A061284E1C1D0073F46D /* TriviaSessionManager.swift in Sources */,

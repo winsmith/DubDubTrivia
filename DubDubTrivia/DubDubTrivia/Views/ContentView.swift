@@ -13,36 +13,47 @@ struct ContentView: View {
     @State var triviaSessionManager: TriviaSessionManager?
 
     var body: some View {
-        if isLoading {
-            ProgressView()
-        } else {
-            Button("Start a new Trivia Session") {
-                isLoading = true
-                Task {
-                    await initializeTriviaSessionManager()
+        VStack {
+            Spacer()
+            Text("🤨").font(.system(size: 100))
+            Text("DubDubTrivia").font(.largeTitle)
+
+            if isLoading {
+                ProgressView()
+            } else {
+                Button("Start a new round") {
+                    Task {
+                        isLoading = true
+                        await initializeTriviaSessionManager()
+                        triviaSessionIsActive = true
+                        isLoading = false
+                    }
                 }
-                triviaSessionIsActive = true
-                isLoading = false
+                .padding()
+                .sheet(isPresented: $triviaSessionIsActive) {
+                    if let triviaSessionManager = triviaSessionManager {
+                        TriviaSessionView(sessionManager: triviaSessionManager)
+                    } else {
+                        Text("No Trivia Session Manager")
+                    }
+                }
             }
-            .padding()
-            .sheet(isPresented: $triviaSessionIsActive) {
-                if let triviaSessionManager = triviaSessionManager {
-                    TriviaSessionView(sessionManager: triviaSessionManager)
-                } else {
-                    Text("No Trivia Session Manager")
-                }
+
+            Spacer()
+
+            Button {
+                URL(string: "https://opentdb.com")?.open()
+            } label: {
+                Text("Uses questions from opentdb.com ➡")
+                    .font(.footnote)
+                    .foregroundColor(.gray)
             }
         }
     }
 
     private func initializeTriviaSessionManager() async {
-        let url = Bundle.main.url(forResource: "opentdb_example", withExtension: "json")!
-        let data = try! Data(contentsOf: url)
-        let decoder = JSONDecoder()
-        let apiResponse = try! decoder.decode(APIResponse.self, from: data)
-
         let sessionManager = TriviaSessionManager()
-        sessionManager.questionQueue = apiResponse.results.shuffled()
+        try? await sessionManager.initializeWithAPIQuestions(amount: 10)
 
         self.triviaSessionManager = sessionManager
     }
